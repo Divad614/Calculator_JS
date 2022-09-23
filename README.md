@@ -8,4 +8,5 @@ It is based on the Microsoft Calculator on the Windows operating system.
 
 Features:
 
-It has BODMAS built into it and can use brackets in a equation.
+1.) It has BODMAS built into it and can use brackets in a equation.
+2.) It can use keypresses as well as button clicks.
