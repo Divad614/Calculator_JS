@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+  <link rel="stylesheet" href="./Style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator - David</title>
+
+ </head>
+
+ <body>
+  <div class="container">
+   <div class="calculator">
+    <!-- ANSWER DISPLAY -->
+    <input id="savedAnswer" type="text" name="savedAnswerScreen" readonly>
+    <input id="answer" type="text" name="screen" placeholder="0">
+    <table>
+
+     <!-- 1st row -->
+     <tr>
+      <td><button class="outerButtons" id="openBracket">(</button></td>
+      <td><button class="outerButtons" id="closeBracket">)</button></td>
+      <td><button class="outerButtons" id="percentage">%</button></td>
+      <td><button class="outerButtons" id="divide">&divide</button></td>
+     </tr>
+
+     <!-- 2nd row -->
+     <tr>
+      <td><button class="innerButtons" id="seven">7</button></td>
+      <td><button class="innerButtons" id="eight">8</button></td>
+      <td><button class="innerButtons" id="nine">9</button></td>+++
+      <td><button class="outerButtons" id="multiplication">x</button></td>
+     </tr>
+
+     <tr>
+      <td><button class="innerButtons" id="four">4</button></td>
+      <td><button class="innerButtons" id="five">5</button></td>
+      <td><button class="innerButtons" id="six">6</button></td>
+      <td><button class="outerButtons" id="subtract">-</button></td>
+     </tr>
+
+     <!-- 3rd row -->
+     <tr>
+      <td><button class="innerButtons" id="one">1</button></td>
+      <td><button class="innerButtons" id="two">2</button></td>
+      <td><button class="innerButtons" id="three">3</button></td>
+      <td><button class="outerButtons" id="four">+</button></td>
+     </tr>
+
+     <!-- 4th row -->
+     <tr>
+      <td><button id="clearButton" id="clear">C</button></td>
+      <td><button class="outerButtons" id="point">.</button></td>
+      <td><button class="outerButtons" id="zero">0</button></td>
+      <td><button id="equalButton" id="equal">=</button></td>
+     </tr>
+
+    </table>
+   </div>
+  </div>
+  <div id="turn">Please Turn Your Device </div>
+ </body>
+ <script src="calculator.js"></script>
+
+</html>
