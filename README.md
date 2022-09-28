@@ -58,3 +58,5 @@ document.addEventListener("keydown", function (event) {
             screen.value = screenValue;
 ```
 And many more not shown in the snippet of code!
+
+More features soon to come...
