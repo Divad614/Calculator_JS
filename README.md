@@ -23,6 +23,8 @@ function getAnswer() {
 
 My inspiration came from the  Microsoft Calculator on the Windows operating system, it is very similar in design but the functionality differs.
 
+It has a max input length of 16 and has built in error responses to invalid equations.
+
 ## Installation:
 
 1. Simply Install the 3 index files and run the HTML!  
