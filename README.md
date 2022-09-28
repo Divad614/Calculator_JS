@@ -23,6 +23,10 @@ function getAnswer() {
 
 My inspiration came from the  Microsoft Calculator on the Windows operating system, it is very similar in design but the functionality differs.
 
+## Installation:
+
+1. Simply Install the 3 index files and run the HTML!  
+
 
 ## Features:
 
@@ -30,9 +34,27 @@ My inspiration came from the  Microsoft Calculator on the Windows operating syst
 
 ![](Images/BODMAS_Calculator.png)
 
-### Result: 
+### Example: 
 ![](Images/BODMAS_Result.png)
 
 ### 2.) It can use keypresses as well as button clicks.
 
-
+```JavaScript
+document.addEventListener("keydown", function (event) {
+    if (screen.value.replace(/\s/g, '').length <= 16) {
+        if (event.shiftKey == 57) {
+            event.key = "(";
+        } else if (event.shiftKey == 48) {
+            event.key = ")";
+        } else if (event.shiftKey == 53) {
+            event.key = "%";
+        }
+        if (event.keyCode == 88) {
+            screenValue += " * ";
+            screen.value = screenValue;
+        }
+        if (event.key <= 9) {
+            screenValue += event.key;
+            screen.value = screenValue;
+```
+And many more not shown in the snippet of code!
