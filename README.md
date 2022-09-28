@@ -27,7 +27,7 @@ It has a max input length of 16 and has built in error responses to invalid equa
 
 ## Installation:
 
-1. Simply Install the 3 index files and run the HTML!  
+1. Simply Install the 3  files (HTML, JS, CSS) and run the HTML!  
 
 
 ## Features:
